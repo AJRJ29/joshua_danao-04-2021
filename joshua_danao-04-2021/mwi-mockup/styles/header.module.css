@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.line {
+  border-top: 2px black;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
+
+.image {
+  height: 80px;
+}
+
+.banner {
+  margin-left: 20px;
+  font-size: 70px;
+  font-family: Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+
+.contenContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  margin: 20px;
+}
+
