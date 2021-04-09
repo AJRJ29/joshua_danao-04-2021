@@ -1,0 +1,66 @@
+.contact {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  margin-top: 40px;
+  color: white;
+  font-size: 38px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputText {
+  margin-bottom: 3px;
+  color: white;
+  font-size: 20px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+.inputError {
+  margin-bottom: 3px;
+  color: red;
+  font-size: 15px;
+  font-family: Geneva, Tahoma, sans-serif;
+  font-style: oblique;
+}
+
+.emailInput {
+  height: 50px;
+  width: 600px;
+  border: none;
+}
+
+.subjectInput {
+  height: 50px;
+  width: 600px;
+  border: none;
+}
+
+.MessageInput {
+  height: 300px;
+  width: 600px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.contactButton {
+  margin-top: 10px;
+  margin-bottom: 70px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .line {
@@ -21,18 +22,53 @@
 }
 
 .banner {
-  margin-left: 20px;
+  margin-left: 61px;
   font-size: 70px;
+  font-weight: 100;
   font-family: Geneva, Tahoma, sans-serif;
   text-decoration: underline;
+  margin-bottom: 19px;
+}
+
+.box {
+  width: 450px;
+  height: 140px;
+  background-color: lightgray;
+}
+
+.contentHeader {
+  font-size: 38px;
+  font-family: Geneva, Tahoma, sans-serif;
+  color: gray;
 }
 
 .contenContainer {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.heading {
+.headingContainer {
   margin: 20px;
+  width: 460px;
+  overflow: hidden;
 }
 
+.contentP {
+  font-size: 20px;
+  font-family: Geneva, Tahoma, sans-serif;
+  color: gray;
+}
+
+.headerButton {
+  margin-top: 10px;
+  margin-bottom: 70px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}

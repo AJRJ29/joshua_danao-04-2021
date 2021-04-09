@@ -1,0 +1,31 @@
+
+
+.banner {
+  font-weight: 100;
+  margin-top: 80px;
+  margin-left: 61px;
+  font-size: 70px;
+  font-family: Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+  margin-bottom: 19px;
+}
+
+.content {
+  margin-top: 50px;
+  margin-left: 61px;
+  font-size: 20px;
+  font-family: Geneva, Tahoma, sans-serif;
+  margin-bottom: 19px;
+}
+
+.footbar {
+  margin-top: 250px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 19px;
+ background-color: black;
+ font-family: Geneva, Tahoma, sans-serif;
+ color: white;
+ font-style: oblique;
+}
