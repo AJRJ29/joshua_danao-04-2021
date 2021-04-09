@@ -18,6 +18,11 @@
   margin-bottom: 19px;
 }
 
+.contentLink {
+  color: red;
+  text-decoration: none;
+}
+
 .footbar {
   margin-top: 250px;
  display: flex;
