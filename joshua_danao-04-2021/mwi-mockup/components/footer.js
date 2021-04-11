@@ -32,9 +32,9 @@ if(filterName) {
     <h1 className={styles.banner}>HEADING ONE</h1>
     <p className={styles.content}> <a className={styles.contentLink} onClick={handleClick}href=""> click here</a></p>
     <ul className={styles.contentNames}>
-      {uniqNames.map((uniqNames, i) => (
+      {filterName.map((name, i) => (
         <li key={i}>
-          <h1>{uniqNames.firstName} {uniqNames.lastName}</h1>
+          <h1>{name.firstName} {name.lastName}</h1>
         </li>
       ))}
      </ul>
