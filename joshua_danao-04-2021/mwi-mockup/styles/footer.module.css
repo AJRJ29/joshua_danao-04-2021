@@ -23,8 +23,15 @@
   text-decoration: none;
 }
 
+.contentNames {
+  font-size: small;
+  margin-top: 50px;
+  margin-left: 35px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
 .footbar {
-  margin-top: 250px;
+margin-top: 250px;
  display: flex;
  justify-content: center;
  align-items: center;
