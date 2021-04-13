@@ -13,9 +13,8 @@ const myAlert = () => {
 const handleClick = (e) => {
   e.preventDefault()
   setNewNames(names)
-  setClicked(2)
-  if(clicked === 2) {
-    setClicked(2)
+  setClicked(1)
+  if(clicked === 1) {
     myAlert(e)
   }
   console.log(clicked)
