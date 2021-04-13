@@ -1,38 +1,33 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from '../styles/footer.module.css';
 
-let object1 = [
-  {id: 0, firstName: "Matt", lastName: "Johnson"}, 
-  {id: 1, firstName: "Bart", lastName: "Paden"}, 
-  {id: 2, firstName: "Ryan", lastName: "Doss"}, 
-  {id: 3, firstName: "Jared", lastName: "Malcolm"}
-],
- object2 = [
-  {id: 0, firstName: "Matt", lastName: "Johnson"}, 
-  {id: 1, firstName: "Bart", lastName: "Paden"}, 
-  {id: 6, firstName: "Jordan", lastName: "Heigle"}, 
-  {id: 7, firstName: "Tyler", lastName: "Viles"}
-];
 
-let newArray = [...object1, ...object2];
+export default function Footer({names}) {
+  const [newName, setNewNames] = useState()
+  const [clicked, setClicked] = useState(0)
 
-let uniqNames = [...newArray.reduce((map, obj) => map.set(obj.id, obj),new Map()).values()];
-
-export default function Footer() {
-  const [filterName, setFilterNames] = useState()
+const myAlert = () => {
+  alert("link has been click")
+}
 
 const handleClick = (e) => {
   e.preventDefault()
-  setFilterNames(uniqNames)
+  setNewNames(names)
+  setClicked(2)
+  if(clicked === 2) {
+    setClicked(2)
+    myAlert(e)
+  }
+  console.log(clicked)
 } 
 
-if(filterName) {
+if(newName) {
   return(
     <div className={styles.footer}>
     <h1 className={styles.banner}>HEADING ONE</h1>
-    <p className={styles.content}> <a className={styles.contentLink} onClick={handleClick}href=""> click here</a></p>
+    <p className={styles.content}><a className={styles.contentLink} onClick={handleClick}href=""> click here</a></p>
     <ul className={styles.contentNames}>
-      {filterName.map((name, i) => (
+      {newName.map((name, i) => (
         <li key={i}>
           <h1>{name.firstName} {name.lastName}</h1>
         </li>
