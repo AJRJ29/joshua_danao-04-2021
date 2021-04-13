@@ -6,16 +6,12 @@ export default function Footer({names}) {
   const [newName, setNewNames] = useState()
   const [clicked, setClicked] = useState(0)
 
-const myAlert = () => {
-  alert("link has been click")
-}
-
 const handleClick = (e) => {
   e.preventDefault()
   setNewNames(names)
   setClicked(1)
   if(clicked === 1) {
-    myAlert(e)
+    alert("link has been click")
   }
   console.log(clicked)
 } 

@@ -7,7 +7,7 @@
 
 ## Personality Test
 
-Personality Result - 
+Personality Result - Type 2
 
 ## Communication
 
@@ -24,4 +24,11 @@ Thanks and Regards,
 Joshua Danao
 
 ## Code Test 
+
+1. The mockup was made using Next.js, Javascript, CSS, HTML.
+2. To solve the puzzle I had to combine 2 arrays of objects and remove the duplicates. 
+3. I used the spread operator to combine the 2 arrays.
+4. Then I used the reduce method to iterate through the array and grab each one of the objects one at a time. 
+5. I also use the map method to get an initial value for the reduce method.
+
 
