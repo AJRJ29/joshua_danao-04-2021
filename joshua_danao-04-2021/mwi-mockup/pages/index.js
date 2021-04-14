@@ -17,7 +17,7 @@ let object1 = [
 
 let newArray = [...object1, ...object2];
 
-let uniqNames = [...newArray.reduce((map, obj) => map.set(obj.id, obj),new Map()).values()];
+let uniqNames = Array.from(newArray.reduce((init, object) => init.set(object.id, object),new Map()).values());
 
 export default function Index() {
   return (

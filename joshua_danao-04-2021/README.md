@@ -29,6 +29,8 @@ Joshua Danao
 2. To solve the puzzle I had to combine 2 arrays of objects and remove the duplicates. 
 3. I used the spread operator to combine the 2 arrays.
 4. Then I used the reduce method to iterate through the array and grab each one of the objects one at a time. 
-5. I also use the map method to get an initial value for the reduce method.
-
+5. I also used the set method of map to get a key and value to be the initial value for the reduce method.
+6. I used the set method because it has the ablity to delete any duplicates. 
+7. Once I have a map with no duplicate names I used the values method of map to grab just the values. 
+8. Then all I needed to do was convert the iterator into an array and so I used array.from method. 
 
